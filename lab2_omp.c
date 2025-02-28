@@ -1,6 +1,6 @@
+#include <omp.h>
 #include "stdio.h"
 #include "stdlib.h"
-#include "omp.h"
 
 #define NMAX 9000000 // Максимальный размер массивов
 #define VNUM 2       // Количество массивов
