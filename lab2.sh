@@ -8,8 +8,8 @@ module load intel/icc18
 module load intel/mpi4
 
 
-gcc -fopenmp -o omp_2 lab2_omp.cpp
-mpicc -o mpi_2 lab2_mpi.cpp
+gcc -fopenmp -o omp_2 lab2_omp.c
+mpicc -o mpi_2 lab2_mpi.c
 
 
 export I_MPI_LIBRARY=/usr/lib64/slurm/mpi_pmi2.so
