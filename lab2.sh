@@ -8,7 +8,7 @@ module load intel/icc18
 module load intel/mpi4
 
 
-gcc -fopenmp -o omp_2 lab2_omp.c
+icc -fopenmp -o omp_2 lab2_omp.c
 mpicc -o mpi_2 lab2_mpi.c
 
 
