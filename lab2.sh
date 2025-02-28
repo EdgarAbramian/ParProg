@@ -9,7 +9,7 @@ module load intel/mpi4
 
 
 gcc -fopenmp -o omp_2 lab2_omp.cpp
-mpicc - 
+mpicc -o mpi_2 lab2_mpi.cpp
 
 
 export I_MPI_LIBRARY=/usr/lib64/slurm/mpi_pmi2.so
